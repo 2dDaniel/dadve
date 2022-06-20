@@ -1,0 +1,80 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+body {
+  background-color: #cfc4c4;
+  place-items: center;
+  width: 80%;
+  max-width: 500px;
+  margin: 0 auto;
+}
+.container {
+  line-height: 1;
+  max-height: 100vh;
+  margin: 10px;
+  background-image: linear-gradient(to right, green, red, blue, yellow);
+}
+.navbar,
+.underkey {
+  display: flex;
+  text-decoration: none;
+  background-color: rgb(99, 92, 92);
+}
+
+.underkey,
+.link {
+  list-style-type: none;
+  text-decoration: none;
+  padding: 10px;
+  color: #fff;
+  justify-content: space-evenly;
+}
+h1 {
+  text-align: center;
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 40px;
+}
+p {
+  text-align: center;
+  padding: 10px;
+  justify-content: center;
+  letter-spacing: 1.2;
+  background-color: rgb(117, 89, 89);
+}
+p {
+  width: 100px;
+  height: 100px;
+  font-weight: bold;
+  font-size: 28px;
+  background-color: #fff;
+  transition: width 2s;
+  overflow: hidden;
+  color: #fff;
+  border-radius: 5px;
+}
+p:hover {
+  width: 480px;
+  color: black;
+  height: 325px;
+}
+footer,
+.under,
+.list {
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+  background-color: rgb(70, 67, 67);
+}
+img {
+  width: 40px;
+  padding: 10px;
+  display: block;
+}
+a:hover {
+  color: rgb(250, 7, 7);
+  transition: 0.5s ease-in-out;
+}
